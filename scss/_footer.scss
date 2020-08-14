@@ -35,6 +35,21 @@
         font-family: $rob;
         font-weight: 500;
     }
+    ul{
+        overflow: hidden;
+        margin: -1px;
+        li{
+            width: calc(100% / 4);
+            float: left;
+            a{
+                display: inline-block;
+                padding: 5px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 .f_insta_widget{
     ul{
