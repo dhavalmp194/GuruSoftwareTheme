@@ -36,6 +36,7 @@
         font-weight: 500;
     }
     ul{
+        display:flex;
         overflow: hidden;
         margin: -1px;
         li{
@@ -43,7 +44,7 @@
             float: left;
             a{
                 display: inline-block;
-                padding: 5px;
+                padding: 10px;
                 img{
                     width: 100%;
                 }

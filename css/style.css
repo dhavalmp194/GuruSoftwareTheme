@@ -2285,7 +2285,7 @@ i:before {
 }
 
 .f_title {
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
 
 .f_title h3 {
@@ -2312,6 +2312,7 @@ i:before {
 }
 
 .f_insta_widget ul {
+  display: flex;
   overflow: hidden;
   margin: -1px;
 }
@@ -2426,6 +2427,80 @@ i:before {
   color: #fff;
 }
 
+
+.f_about_widget ul {
+  display: flex;
+  padding-top: 20px;
+}
+.f_about_widget ul li  {
+  padding-right: 20px;
+
+}
+.f_about_widget ul li  a {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  border-radius: 50%;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+}
+.f_about_social ul li a  {
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 70px;
+}
+.fa-envelope-o:hover {  
+    color: yellow !important;
+}
+.f_about_social p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.dropdown-menu  {
+  width: 350px !important;
+}
+.main_slider_area{
+  padding-top: 120px !important;
+}
+.font{
+  font-size: 30px;
+    line-height: 28px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 50
+}
+.title-area .title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+    justify-content: center !important;
+    text-align: center !important;
+    color: #0076B3;
+}
+.title-area{
+  display: inline;
+    float: left;
+    padding: 0 150px;
+    text-align: center;
+    width: 100%;
+}
+.title-area .line {
+    background-color: #777;
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+}
+
+.footer_copyright .float-sm-right ul li a  {
+  height: 30px !important;
+  width: 30px !important;
+    font-size: 40px !important;
+  }
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
