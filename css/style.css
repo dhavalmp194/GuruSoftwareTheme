@@ -577,7 +577,7 @@ i:before {
 }
 
 .feature_item .f_icon {
-  min-height: 91px;
+
   position: relative;
 }
 
@@ -2500,6 +2500,20 @@ i:before {
   height: 30px !important;
   width: 30px !important;
     font-size: 40px !important;
+  }
+  .service  ul  {
+    list-style-type: disc !important;
+    line-height:180%;
+    color: #7c8d93 !important;
+  }
+  .service  ul li {
+    color: #7c8d93 !important;
+  }
+  .isize{
+    font-size:120px !important;
+  }
+  .f_icon .fa {
+    font-size: 60px !important;
   }
 /* End Footer Area css
 ============================================================================================ */
