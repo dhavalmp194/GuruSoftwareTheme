@@ -2501,6 +2501,142 @@ i:before {
   width: 30px !important;
     font-size: 40px !important;
   }
+
+             
+        .service-icon {
+    font-size: 50px;
+    height: 60px;
+    color: #f8c6da;
+    line-height: 50px;
+    position: absolute;
+    top: 10px;
+    width: 60px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.our-skill {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.our-skill-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.our-skill-content .progress {
+    background-color: #f5f5f5;
+    height: 30px;
+    border-radius: 0;
+    margin-bottom: 24px;
+}
+.progress {
+    position: relative;
+}
+.our-skill-content .progressbar-back-text, .our-skill-content .progressbar-front-text {
+    font-size: 14px;
+    height: 100%;
+    line-height: 30px;
+}
+.progress .progressbar-back-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.our-skill-content .progress-bar {
+    background-color: #0076B3;
+    width: 100%;
+}
+.progress .progress-bar {
+    position: absolute;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.six-sec-ease-in-out {
+    -webkit-transition: width 6s ease-in-out;
+    -moz-transition: width 6s ease-in-out;
+    -ms-transition: width 6s ease-in-out;
+    -o-transition: width 6s ease-in-out;
+    transition: width 6s ease-in-out;
+}
+.progress-bar {
+    float: left;
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+}
+.progress-title {
+    font-size: 15px;
+    font-weight: bold;
+    left: 20px;
+    line-height: 29px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+.panel-group .panel {
+    border-radius: 0px;
+}
+.collapse.in {
+    display: block;
+}
+/*.collapse {
+    display: none;
+}*/
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-title > a {
+   
+    display: block;
+    padding: 10px 15px;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 1px solid #ddd;
+}
+.panel-body {
+    padding: 15px;
+}
+.rev_slider img, .tp-simpleresponsive img {
+    max-height: 700px!important;
+    max-width: none!important;
+    transition: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+=======
   .service  ul  {
     list-style-type: disc !important;
     line-height:180%;
@@ -2515,6 +2651,7 @@ i:before {
   .f_icon .fa {
     font-size: 60px !important;
   }
+
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
